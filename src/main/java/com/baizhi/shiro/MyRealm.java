@@ -18,7 +18,7 @@ public class MyRealm extends AuthorizingRealm {
 //        拿着username去获取角色   根据角色查权限
 //        身份    角色      权限
 
-        System.out.println("-----------------------------------------------");
+        System.out.println("-----------------++++------------------------------");
 
         SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
         ArrayList<Permission> list=new ArrayList<Permission>();
