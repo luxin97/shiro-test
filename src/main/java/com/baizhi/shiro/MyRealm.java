@@ -17,6 +17,9 @@ public class MyRealm extends AuthorizingRealm {
         String primaryPrincipal = (String) principalCollection.getPrimaryPrincipal();
 //        拿着username去获取角色   根据角色查权限
 //        身份    角色      权限
+
+        System.out.println("-----------------------------------------------");
+
         SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
         ArrayList<Permission> list=new ArrayList<Permission>();
         list.add(new DomainPermission("user:update"));
